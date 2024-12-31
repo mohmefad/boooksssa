@@ -1,0 +1,253 @@
+/*	Links
+**********************************************/
+
+A:link {
+text-decoration : none;
+color : #333333;
+}
+A:visited {
+text-decoration : none;
+color : #333333;
+}
+A:active {
+text-decoration : none;
+color : #333333;
+}
+A:hover {
+text-decoration : underline;
+color : #333333;
+}
+a.credit:link {
+color : #c9c9c9;
+text-decoration : none;
+font-family : "Courier New", Courier, monospace;
+font-size : 11px;
+font-weight : bold;
+}
+a.credit:visited {
+color : #c9c9c9;
+font-family : "Courier New", Courier, monospace;
+text-decoration : none;
+font-size : 11px;
+}
+a.credit:hover {
+color : #b0b0b0;
+font-family : "Courier New", Courier, monospace;
+text-decoration : none;
+font-size : 11px;
+}
+a.credit:active {
+font-size : 11px;
+}
+
+/*	Body & container & footer
+**********************************************/
+
+body {
+margin : 20px 0 30px 0;
+background : #f3f3f3 url(../images/affiliate-video-gradient.jpg) repeat-x top; 
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 13px;
+}
+#container {
+margin : 0 auto 0 auto;
+width : 900px;
+}
+#body1 {
+background-color : #fff;
+background-repeat:no-repeat;
+background-position: 5px 5px;
+padding : 30px 50px 1px 50px;
+border : 1px solid #c0c0c0;
+}
+#footer {
+width : 740px;
+margin : 0 auto 0 auto;
+padding : 4px;
+font-family : "Courier New", Courier, monospace;
+color : #d0d0d0;
+font-size : 11px;
+text-align : center;
+}
+
+/*	Headline
+**********************************************/
+
+@font-face {
+font-family: 'ArmaliteRifleRegular';
+src: url('armalite/armalite_rifle.eot');
+src: local('Armalite Rifle Regular'), local('ArmaliteRifle'), url('armalite/armalite_rifle.ttf') format('truetype');
+}
+h1.fontface {
+font: 30px/38px 'ArmaliteRifleRegular', Arial, sans-serif;letter-spacing: 0;
+margin-bottom : 5px;
+}
+h2.fontface {
+font: 20px/28px 'ArmaliteRifleRegular', Arial, sans-serif;letter-spacing: 0;
+}
+
+/*	Video & forms
+**********************************************/
+
+.media {
+width : 100%;
+background-color : #fff5cb;
+border : 1px solid #c05050;
+margin : 30px 0 20px 0;
+padding : 5px;
+}
+
+.video {
+width : 380px;
+background-color : #dedede;
+border : 1px solid #c05050;
+margin : 0 10px 0 0px;
+padding : 5px;
+}
+
+.form1 {
+height: 346px;
+background-color : #fff5cb;
+margin : 0px 0px 0px 10px;
+padding: 5px;
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 12px;
+color: #444;
+}
+
+.act_button {
+margin-top: 35px;
+margin-left: 65px;
+}
+
+/*	Tool tips
+**********************************************/
+
+#main {
+width: 80px; 
+height: 50px; 
+margin-top: -550px; 
+position: relative; 
+float: left;
+}
+.tTip {
+width: 150px; 
+position: absolute;  
+}		
+#cloud1 {
+top: 542px; 
+left: 207px;
+}
+.tip {
+width: 400px;
+padding-top: 15px;
+overflow: hidden;
+display: none;
+position: absolute;
+z-index: 500;
+background-color: #fdfdfd;
+border : 1px solid #c05050;
+}	
+.tipMid {
+background-color: #fdfdfd; 
+padding: 0 10px 15px 10px;
+}
+.tipBtm {
+background-color: #fdfdfd; 
+}
+
+/*	Advantages list
+**********************************************/
+
+ul.advantage { 
+font-family : Verdana, Arial, Helvetica, sans-serif;
+font-size : 12px;
+font-weight : bold;
+
+color: #9c3030;
+line-height: 18px;
+text-indent: -4px;
+list-style-image: url("../images/arrow.png");
+}
+
+/*	Form styling
+**********************************************/
+
+fieldset {
+padding: 10px;
+border:none;
+}
+
+label {
+float:left;
+width:100%;
+margin-right:0.5em;
+padding-top: 5px;
+text-align:left;
+}
+
+.submit {
+margin-top: 5px;
+margin-left: 166px;
+} 
+
+table, th, td
+{
+border: none;
+}
+
+/*	Images, headings & text & colors
+**********************************************/
+
+img {
+border-style:none;
+}
+h1 {
+margin-top : 0px;
+
+margin-bottom : 0;
+font-size : 20px;
+text-align: center;
+color : #c05050;
+}
+h2 {
+margin-top : 0;
+margin-bottom : 10px;
+
+font-size : 14px;
+text-align: center;
+color : #808080;
+}
+h3 {
+margin-top : 0px;
+margin-bottom : 10px;
+font-size : 16px;
+text-align: center;
+color : #c03030;
+}
+.text_top {
+text-align : center;
+}
+.text_small {
+text-align : center;
+font-size : 9px;
+color : #bfbfbf;
+}
+.white {
+background-color : #fff;
+}
+.grey {
+background-color : #fcfcfc;
+}
+.text_white {
+color : #fff;
+}
+.color2 {
+background-color : #34454f;
+}
+.yellow {
+background-color : #fff5cb;
+}
+p {
+margin : 0;
+}
